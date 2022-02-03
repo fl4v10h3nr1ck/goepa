@@ -1,0 +1,52 @@
+
+#areas{width:100%}
+
+.area_bloco{float:left;padding:3px 1.5% 3px 1.5%;min-height:500px;max-height:500px}
+
+.bloco{border:solid 1px #000; margin:5px;padding:10px}
+
+.nome_entidade, .relacao_entidade, .relacao_alt_entidade, .nome_alt_entidade, .params_entidade{width:100%}
+
+
+.div_nome_entidade{width:97%} 
+
+.div_relacao_entidade{width:99%} 
+
+.div_params_entidade{width:97%} 
+
+.bt_add_entidade{width:120px}
+
+.area_lista_entidade{width:100%;overflow:auto}
+
+.area_lista_entidade th{background:#000;color:#FFF;padding:5px 0px 5px 0px}
+
+.area_lista_entidade td{padding:5px 0px 5px 0px}
+
+.bt_remover_entidade{width:50px}
+
+.div_nome_alt_entidade{width:97%}
+ 
+.div_relacao_alt_entidade{width:97%} 
+
+.bt_voltar{width:30px}
+
+
+@media (max-width: 900px){
+	
+.area_bloco{width:97%}
+}
+
+
+@media (min-width: 901px) and (max-width: 1250px){
+	
+.area_bloco{width:47%}
+}
+
+
+@media (min-width: 1251px){
+	
+.area_bloco{width:30.3%}
+	
+}
+
+

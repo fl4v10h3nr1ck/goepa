@@ -1,0 +1,8 @@
+
+.navegacao{width:30px;margin:5px 10px 5px 10px;cursor:pointer}
+
+
+.area_relatorio{width:100%;overflow:auto;border:solid 1px #EEE}
+
+
+.area_relatorio_flutuante{float:left;width:50%}

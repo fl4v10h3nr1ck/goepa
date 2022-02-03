@@ -1,0 +1,40 @@
+
+
+#form_login{background:#f7f7f7;color:#333;border-radius: 10px;box-shadow: 10px 10px 5px #888888;margin:40px auto}
+
+#item_titulo, #item_cpf, #item_senha{width:calc(99% - var(--item_form_margin_total))}
+
+#login_msg_erro{color:red;font-weight:bold;margin:10px 0px 0px 0px}
+
+#bt_logar{width:150px}
+
+@media (max-width: 800px){
+	
+	#form_login{width:80%}
+}
+
+@media (min-width: 801px) and (max-width: 1399px){
+	
+	#form_login{width:45%}	
+}
+
+@media (min-width: 1400px){
+
+	#form_login{width:40%}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

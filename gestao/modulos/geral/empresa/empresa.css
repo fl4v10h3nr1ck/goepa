@@ -1,0 +1,59 @@
+
+
+#codigo, #razao, #fantasia, #cnpj, #modulo, #endereco, #tel, #tel_2, #email, #site, #modulo{width:100%}
+
+#bt_salvar_empresa{width:150px;margin-top:20px}
+
+.tab_empresas_tab tr, td{height:28px}
+
+.bt_remover_modulo{max-width:50px}
+
+.bt_add_modulo{max-width:50px;margin-top:15px}
+
+#div_selecao_modulo{width:77%}
+
+#div_selecao_bt_novo{width:17%}
+
+#modulos_area_interna{border:solid 1px #EEE;padding:5px;}
+
+
+@media (max-width: 930px){
+	
+	#div_codigo{width:28%}	
+	/*#div_cnpj{width:19%}	
+	#div_razao{width:59%}*/
+	
+	#div_fantasia{width:69%}
+	#div_tel{width:47%}
+	#div_tel_2{width:47%}
+	#div_email{width:47%}
+	#div_site{width:47%}
+	
+	#area_dados{width:98%;margin:1%;float:left}	
+	/*#div_modulos{width:98%;margin:1%;float:left}
+	
+	
+	#modulos_area_interna{min-height:250px}*/
+}
+
+
+
+@media (min-width: 931px){
+	
+	#div_codigo{width:19%}	
+	/*#div_cnpj{width:19%}	
+	#div_razao{width:59%}*/
+	
+	#div_fantasia{width:79%}
+	#div_tel{width:24%}
+	#div_tel_2{width:24%}
+	#div_email{width:24%}
+	#div_site{width:24%}
+
+	#area_dados{width:98%;margin:1%;float:left}	
+	/*#div_modulos{width:38%;margin:1%;float:left}
+
+	#modulos_area_interna{min-height:330px}*/	
+}
+
+

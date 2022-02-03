@@ -1,0 +1,28 @@
+
+#logradouro,#numero,#cidade,#uf,#bairro,#cep,#complemento{width:100%}
+
+#area_endereco{position:relative;width:100%}
+
+@media (max-width: 930px){
+
+	#div_logradouro{width:97%}
+	#div_numero{width:31%}
+	#div_cidade{width:30%}
+	#div_uf{width:30%}
+	#div_bairro{width:27%}
+	#div_cep{width:17%}
+	#div_complemento{width:47%}
+}
+
+
+@media (min-width: 931px){
+
+	#div_logradouro{width:77%}
+	#div_numero{width:17%}
+	#div_cidade{width:44%}
+	#div_uf{width:17%}
+	#div_bairro{width:30%}
+	#div_cep{width:20%}
+	#div_complemento{width:74%}
+}
+

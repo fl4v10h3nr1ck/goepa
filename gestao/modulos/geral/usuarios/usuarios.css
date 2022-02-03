@@ -1,0 +1,44 @@
+
+#cpf, #usuario, #nome, #tel, #email, #admin, #senha, #repete_senha, #modulo, #div_modulos, #div_atributos{width:100%}
+
+#bt_salvar_usuario{width:150px;margin-top:20px}
+
+.tab_usuarios_tab tr, td{height:28px}
+
+.bt_remover_modulo{max-width:60px}
+
+#area_dados{width:100%}
+
+#area_modulos{display:none}	
+
+.tab_usuarios_tab{min-width:900px}
+
+
+
+@media (max-width: 930px){
+	
+#div_nome{width:97%}
+#div_cpf{width:97%}
+#div_email{width:97%}
+#div_tel{width:57%}
+
+#div_senha{width:57%}
+
+#div_repete_senha{width:57%}
+}
+
+
+@media (min-width: 931px){
+		
+#div_nome{width:37%}
+#div_cpf{width:27%}
+#div_email{width:27%}
+#div_tel{width:31%}
+
+#div_senha{width:27%}
+#div_repete_senha{width:27%}
+
+}
+
+
+

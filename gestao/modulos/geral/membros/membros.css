@@ -1,0 +1,69 @@
+
+#bt_salvar, #bt_proximo, #bt_anterior{width:130px;margin:20px 10px 20px 10px}
+
+.tab_membros_tab tr, td{height:28px}
+
+.tab_membros_tab{min-width:900px}
+
+
+#loja, #nome, #nascimento, #uf_naturalidade, #naturalidade, #nacionalidade, #estado_civil, #data_casamento, #tipo_sangue, #profissao,
+#nome_pai, #nome_mae, #cim, #cpf, #rg, #rg_expeditor, #rg_data_expedicao, #titulo_eleitor, #titulo_eleitor_zona, #titulo_eleitor_sessao
+{width:100%}
+
+
+
+@media (max-width: 930px){
+	
+	#div_loja{width:99%}
+	#div_nome{width:99%}
+	#div_nascimento{width:29%}
+	#div_uf_naturalidade{width:19%}
+	#div_naturalidade{width:47%}
+	#div_nacionalidade{width:49%;margin-right:48%}
+	#div_estado_civil{width:49%}
+	#div_data_casamento{width:48%}
+	#div_tipo_sangue{width:29%}
+	#div_profissao{width:68%}
+	
+	
+	#div_nome_pai{width:49%}
+	#div_nome_mae{width:48%}
+	#div_cim{width:39%}
+	#div_cpf{width:39%} 
+	#div_rg{width:32%} 
+	#div_rg_expeditor{width:32%}
+	#div_rg_data_expedicao{width:31%}
+	#div_titulo_eleitor{width:55%}
+	#div_titulo_eleitor_zona{width:20%}
+	#div_titulo_eleitor_sessao{width:20%}
+}
+
+
+@media (min-width: 931px){
+	
+	#div_loja{width:49%}
+	#div_nome{width:49%}
+	#div_nascimento{width:19%}
+	#div_uf_naturalidade{width:9%}
+	#div_naturalidade{width:34%}
+	#div_nacionalidade{width:34%}
+	#div_estado_civil{width:19%}
+	#div_data_casamento{width:19%}
+	#div_tipo_sangue{width:19%}
+	#div_profissao{width:39%}
+
+
+	#div_nome_pai{width:29%}
+	#div_nome_mae{width:29%}
+	#div_cim{width:19%}
+	#div_cpf{width:19%} 
+	#div_rg{width:13%} 
+	#div_rg_expeditor{width:22%}
+	#div_rg_data_expedicao{width:12%}
+	#div_titulo_eleitor{width:22%}
+	#div_titulo_eleitor_zona{width:13%}
+	#div_titulo_eleitor_sessao{width:13%}
+}
+
+
+
